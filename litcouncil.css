@@ -1,0 +1,180 @@
+*{
+    
+   
+    box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+     }
+     
+     body{
+         
+         background: url(litbg.jpg);
+         z-index: -1;
+     }
+     
+     /* .back::before{
+         background: url(body.png);
+         position: absolute;
+         z-index: -1;
+         opacity: 1;
+     } */
+     #navbar{
+         font-family: 'Baloo Tamma 2', cursive;
+         display: flex;
+         flex-direction: row;
+         background-color: rgb(205, 84, 50);
+     }
+     
+     ul{
+         margin: 10px auto;
+         display: flex;
+         flex-direction: row;
+     }
+     
+     li{
+        
+         
+         font-size: 30px;
+         margin: 0px 24px;
+         list-style: none;
+     }
+    
+     #lithead{
+        margin-bottom: 25px;
+        text-align: center;
+        display: block;
+        font-size: 5rem;
+        color: black;
+        /* margin: auto; */
+        margin-top: 24px;
+        font-family: 'Acme', sans-serif;
+        animation: blinking 3.0s infinite;
+    }
+        @keyframes blinking{
+            0%{   color: rgb(2, 2, 2);   }
+            47%{   color: rgb(249, 249, 252); }
+            62%{   color: rgb(0, 96, 128); }
+            97%{   color: rgb(253, 233, 253); }
+            100%{  color: black;   }
+    }
+     
+     a{
+         text-decoration: none;
+         color: black;
+     }
+     
+     a:hover{
+         /* background-color: black; */
+         color: white;
+     }
+    
+     footer{
+        font-size: 1.4rem;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+    
+    .page h2 {
+        position: relative;
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    .page-desc {
+        font-size: 1.2rem;
+    }
+    p {
+        flex: 0 1 100%;
+        padding: 0 1rem;
+        margin: 2rem;
+        margin-top: 1rem;
+        font-family: sans-serif;
+    }
+    
+    .page {
+        
+font-family: 'Bree Serif', serif;
+        position: relative;
+        width: 95%;
+        background-color: lightsteelblue;
+        border-radius: 30px;
+        padding: 60px;
+        margin: auto;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    
+    #page-3 {
+        
+        padding-right: 0;
+    }
+    
+    #page-4 {
+        background-color: lightpink;
+    }
+    
+    .card p {
+        font-size: 1.1rem;
+    }
+    
+    .card {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        padding: 30px;
+        border-radius: 30px;
+        margin-top: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 30px 3px rgb(0 0 0 / 2%);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    button{
+        font-size: 1.0rem;
+        border: 3px solid black;
+        height: 40px;
+        width: 100px;
+        background: black;
+        color: white;
+        border-radius: 25px;
+    }
+    
+    button:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    
+    /* #culthead{
+        color: black;
+        font-size: 2.5rem;
+        
+    } */
+    
+    #events-button{
+        width: 200px;
+        height: 40px;
+        border: 2px solid black;
+        color: white;
+        background: black;
+    }
+    
+    #events-button:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
